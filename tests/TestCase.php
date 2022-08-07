@@ -3,8 +3,8 @@
 namespace IloveCode\Outspoken\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use IloveCode\Outspoken\OutspokenServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

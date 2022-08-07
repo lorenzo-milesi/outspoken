@@ -2,9 +2,9 @@
 
 namespace IloveCode\Outspoken;
 
+use IloveCode\Outspoken\Commands\OutspokenCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use IloveCode\Outspoken\Commands\OutspokenCommand;
 
 class OutspokenServiceProvider extends PackageServiceProvider
 {
