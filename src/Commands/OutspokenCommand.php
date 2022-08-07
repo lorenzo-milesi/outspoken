@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace IloveCode\Outspoken\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class OutspokenCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'outspoken';
 
     public $description = 'My command';
 
