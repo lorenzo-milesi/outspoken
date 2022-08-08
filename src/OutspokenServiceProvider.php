@@ -2,7 +2,6 @@
 
 namespace IloveCode\Outspoken;
 
-use IloveCode\Outspoken\Commands\OutspokenCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -17,9 +16,6 @@ class OutspokenServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('outspoken')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_outspoken_table')
-            ->hasCommand(OutspokenCommand::class);
+            ->hasConfigFile();
     }
 }
